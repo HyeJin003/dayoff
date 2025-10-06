@@ -1,0 +1,21 @@
+{
+  "name": "dayoff",
+  "version": "1.0.0",
+  "description": "추석 복습",
+  "main": "index.js",
+   "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyeJin003/dayoff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HyeJin003/dayoff/issues"
+  },
+  "homepage": "https://github.com/HyeJin003/dayoff#readme"
+}
