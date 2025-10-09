@@ -12,8 +12,9 @@
 // console.log(moduleData.add(1, 2));
 // console.log(moduleData.sub(1, 2));
 // console.log("안녕 , Node.js");
-import multiply from "./dayoff/math.js"
-import { add, sub } from "./dayoff/math.js"
-console.log(add(1, 2));
-console.log(sub(1, 2));
-console.log(multiply(1, 2));
+// import multiply from "./dayoff/math.js"
+// import { add, sub } from "./dayoff/math.js"
+// console.log(add(1, 2));
+// console.log(sub(1, 2));
+// console.log(multiply(1, 2));
+
