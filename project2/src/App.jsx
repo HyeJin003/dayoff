@@ -1,4 +1,5 @@
-import{Routes ,  Route ,Link ,useNavigate  } from "react-router-dom"
+import React from 'react';
+import { Routes, Route, Link, useNavigate } from "react-router-dom"
 import Home from './pages/Home';
 import Diary from './pages/Diary';
 import New from './pages/New';
