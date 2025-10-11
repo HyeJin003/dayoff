@@ -10,7 +10,10 @@ import Notfound from './pages/Notfound';
 // 3. "/diary" : 일기를 상세히 조회하는 Diary 페이지
 // 페이지도컴포넌트 
 function App() {
-  
+  const nav = useNavigate();
+  const onClickButton = () => {
+    nav("/New");
+  }
   return (
     <>
       <div>
@@ -18,6 +21,9 @@ function App() {
         <Link to ={"/new"} >New</Link>
         <Link to ={"/diary"} >Diary</Link>   
       </div>
+      <button onClick={onClickButton}>
+        New 페이지로 이동 
+      </button>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/new' element={<New />} />
